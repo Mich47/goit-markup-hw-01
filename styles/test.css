@@ -1,0 +1,50 @@
+.social-links .link {
+  color: teal;
+}
+
+/* Два і більше селекторів розділяються комою */
+.social-links .link:hover,
+.social-links .link:focus {
+  color: orange;
+}
+
+.social-links .link:active {
+  color: red;
+}
+
+.schedule-body > tr:hover {
+  background-color: tomato;
+  color: white;
+}
+
+/* Оформлення таблиці */
+.schedule {
+  border-collapse: collapse;
+}
+
+.schedule th,
+.schedule td {
+  padding: 8px;
+  border: 1px solid #212121;
+}
+
+.text > span {
+  text-decoration: line-through;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.post-title {
+  letter-spacing: 10px;
+}
+
+.post-text {
+  letter-spacing: 5px;
+}
+
+.title {
+  color: #ffffff;
+  text-shadow: 2px 2px 8px #000000;
+}
